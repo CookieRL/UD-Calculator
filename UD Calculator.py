@@ -35,7 +35,10 @@ def calculator():
 	cal1 = int(cal1)
 	race = amt//cal1
 	race - int(race)
+	mileage = amt//mile
 	print("Amount of times to Drive from Nomtauk I-76 to South Beach I-76: " + Fore.GREEN + "{:,}".format(race))
+
+	print("miles to go: ",mileage)
 
 	input()
 calculator()
